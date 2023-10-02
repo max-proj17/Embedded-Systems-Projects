@@ -1,0 +1,48 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>H:\Embedded Labs\Embedded_Lab_2\Embedded_Lab_2\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>H:\Embedded Labs\Embedded_Lab_2\Embedded_Lab_2\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m328Pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>H:\Embedded Labs\Embedded_Lab_2\Embedded_Lab_2\Debug\Embedded_Lab_2.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Embedded_Lab_2.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Embedded_Lab_2.map</FILE>
+  <FILE>Embedded_Lab_2.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <display><FILE>H:\Embedded Labs\Embedded_Lab_2\Embedded_Lab_2\main.asm</FILE><LINE>155</LINE></display>
+  <main><FILE>H:\Embedded Labs\Embedded_Lab_2\Embedded_Lab_2\main.asm</FILE><LINE>30</LINE></main>
+  <pulse_clock><FILE>H:\Embedded Labs\Embedded_Lab_2\Embedded_Lab_2\main.asm</FILE><LINE>49</LINE></pulse_clock>
+  <pulse_latch><FILE>H:\Embedded Labs\Embedded_Lab_2\Embedded_Lab_2\main.asm</FILE><LINE>54</LINE></pulse_latch>
+  <switch_number><FILE>H:\Embedded Labs\Embedded_Lab_2\Embedded_Lab_2\main.asm</FILE><LINE>60</LINE></switch_number>
+  <become_1><FILE>H:\Embedded Labs\Embedded_Lab_2\Embedded_Lab_2\main.asm</FILE><LINE>109</LINE></become_1>
+  <become_2><FILE>H:\Embedded Labs\Embedded_Lab_2\Embedded_Lab_2\main.asm</FILE><LINE>113</LINE></become_2>
+  <become_3><FILE>H:\Embedded Labs\Embedded_Lab_2\Embedded_Lab_2\main.asm</FILE><LINE>117</LINE></become_3>
+  <become_4><FILE>H:\Embedded Labs\Embedded_Lab_2\Embedded_Lab_2\main.asm</FILE><LINE>121</LINE></become_4>
+  <become_5><FILE>H:\Embedded Labs\Embedded_Lab_2\Embedded_Lab_2\main.asm</FILE><LINE>125</LINE></become_5>
+  <become_6><FILE>H:\Embedded Labs\Embedded_Lab_2\Embedded_Lab_2\main.asm</FILE><LINE>129</LINE></become_6>
+  <become_7><FILE>H:\Embedded Labs\Embedded_Lab_2\Embedded_Lab_2\main.asm</FILE><LINE>133</LINE></become_7>
+  <become_8><FILE>H:\Embedded Labs\Embedded_Lab_2\Embedded_Lab_2\main.asm</FILE><LINE>137</LINE></become_8>
+  <become_9><FILE>H:\Embedded Labs\Embedded_Lab_2\Embedded_Lab_2\main.asm</FILE><LINE>141</LINE></become_9>
+  <become_0><FILE>H:\Embedded Labs\Embedded_Lab_2\Embedded_Lab_2\main.asm</FILE><LINE>105</LINE></become_0>
+  <stay_put><FILE>H:\Embedded Labs\Embedded_Lab_2\Embedded_Lab_2\main.asm</FILE><LINE>145</LINE></stay_put>
+  <loop><FILE>H:\Embedded Labs\Embedded_Lab_2\Embedded_Lab_2\main.asm</FILE><LINE>161</LINE></loop>
+  <set_ser_in_1><FILE>H:\Embedded Labs\Embedded_Lab_2\Embedded_Lab_2\main.asm</FILE><LINE>167</LINE></set_ser_in_1>
+  <end><FILE>H:\Embedded Labs\Embedded_Lab_2\Embedded_Lab_2\main.asm</FILE><LINE>170</LINE></end>
+  <delay_long><FILE>H:\Embedded Labs\Embedded_Lab_2\Embedded_Lab_2\main.asm</FILE><LINE>187</LINE></delay_long>
+  <d1><FILE>H:\Embedded Labs\Embedded_Lab_2\Embedded_Lab_2\main.asm</FILE><LINE>190</LINE></d1>
+  <d2><FILE>H:\Embedded Labs\Embedded_Lab_2\Embedded_Lab_2\main.asm</FILE><LINE>192</LINE></d2>
+ </LABELS>
+</ASSEMBLER_INFO>

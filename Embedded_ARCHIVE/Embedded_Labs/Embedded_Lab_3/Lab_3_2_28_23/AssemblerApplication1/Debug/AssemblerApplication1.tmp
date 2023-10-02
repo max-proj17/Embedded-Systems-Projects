@@ -1,0 +1,79 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.7.374\avrasm\inc\m328Pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\Debug\AssemblerApplication1.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>AssemblerApplication1.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>AssemblerApplication1.map</FILE>
+  <FILE>AssemblerApplication1.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <setup><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>12</LINE></setup>
+  <main><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>103</LINE></main>
+  <stay_put><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>29</LINE></stay_put>
+  <delay_10ms><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>373</LINE></delay_10ms>
+  <inc_R27_reset_R22><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>41</LINE></inc_R27_reset_R22>
+  <here><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>34</LINE></here>
+  <set_led_to_dash><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>46</LINE></set_led_to_dash>
+  <check_digit><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>120</LINE></check_digit>
+  <validate><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>54</LINE></validate>
+  <incorrect_code><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>59</LINE></incorrect_code>
+  <led_code><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>67</LINE></led_code>
+  <display><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>305</LINE></display>
+  <delay_9s><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>351</LINE></delay_9s>
+  <delay_5s><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>343</LINE></delay_5s>
+  <check_E_code><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>76</LINE></check_E_code>
+  <tally><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>113</LINE></tally>
+  <check_8_code><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>81</LINE></check_8_code>
+  <check_5_code><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>86</LINE></check_5_code>
+  <check_9_code><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>91</LINE></check_9_code>
+  <check_A_code><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>96</LINE></check_A_code>
+  <CW_1><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>140</LINE></CW_1>
+  <CCW_1><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>145</LINE></CCW_1>
+  <CW_2><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>150</LINE></CW_2>
+  <CCW_2><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>155</LINE></CCW_2>
+  <CW_3><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>160</LINE></CW_3>
+  <CCW_3><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>165</LINE></CCW_3>
+  <increment><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>170</LINE></increment>
+  <decrement><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>183</LINE></decrement>
+  <dash_to_zero><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>178</LINE></dash_to_zero>
+  <switch_number><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>196</LINE></switch_number>
+  <dash_to_F><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>191</LINE></dash_to_F>
+  <check_1><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>203</LINE></check_1>
+  <check_2><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>210</LINE></check_2>
+  <check_3><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>217</LINE></check_3>
+  <check_4><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>224</LINE></check_4>
+  <check_5><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>231</LINE></check_5>
+  <check_6><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>238</LINE></check_6>
+  <check_7><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>245</LINE></check_7>
+  <check_8><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>252</LINE></check_8>
+  <check_9><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>259</LINE></check_9>
+  <check_A><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>266</LINE></check_A>
+  <check_B><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>273</LINE></check_B>
+  <check_C><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>280</LINE></check_C>
+  <check_D><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>287</LINE></check_D>
+  <check_E><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>294</LINE></check_E>
+  <check_F><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>301</LINE></check_F>
+  <loop><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>312</LINE></loop>
+  <set_ser_in_1><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>318</LINE></set_ser_in_1>
+  <end><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>321</LINE></end>
+  <pulse_clock><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>363</LINE></pulse_clock>
+  <pulse_latch><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>368</LINE></pulse_latch>
+  <delay_1s><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>335</LINE></delay_1s>
+  <again><FILE>H:\Embedded Labs\Max_Barf_Lab3\Lab_3_2_28_23\AssemblerApplication1\main.asm</FILE><LINE>378</LINE></again>
+ </LABELS>
+</ASSEMBLER_INFO>
