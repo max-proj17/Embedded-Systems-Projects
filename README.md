@@ -1,11 +1,10 @@
-# Embedded Systems Projects
 
 # Embedded Systems Projects
 
 ## Overview
 This repository contains various projects and code snippets related to Embedded Systems. The projects encompass a range of applications and are developed using C, Assembly, and potentially other languages and tools related to embedded systems development.
 
-![Project Image](/repo_images/medium-ATmega328P-TQFP-32)  
+![Project Image](/repo_images/medium-ATmega328P-TQFP-32.png)  
 
 ## Projects
 ### Project 1: [Project Name]
