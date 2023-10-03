@@ -2,16 +2,16 @@
 # Embedded Systems Projects
 
 ## Overview
-This repository contains various projects and code snippets related to Embedded Systems. The projects encompass a range of applications and are developed using C, Assembly, and potentially other languages and tools related to embedded systems development.
+This repository contains various projects and code snippets related to my Embedded Systems Projects! The projects encompass a range of applications and are developed using C, Assembly, and potentially other languages and tools related to embedded systems development.
 
 ![Project Image](/repo_images/medium-ATmega328P-TQFP-32.png)  
 
 ## Projects
-### Project 1: [Project Name]
-- **Description**: Brief description of the project.
-- **Languages Used**: C, Assembly
-- **Hardware Used**: Specify any microcontrollers, sensors, etc.
-- **Key Concepts**: Highlight any key concepts or techniques used (e.g., interrupts, low-power design, etc.)
+### Project 1: LED Toggle with Out-of-Phase Blinking (Embedded_Lab_1)
+- **Description**: This assembly program is designed to control two LEDs connected to an AVR microcontroller (ATmega328P). It toggles the LEDs in an out-of-phase manner, meaning when one LED is ON, the other is OFF and vice versa. The program utilizes two pins (PB1 and PB2) on port B of the microcontroller to control the LEDs and implements a delay function to manage the blinking rate of the LEDs.
+- **Languages Used**: Assembly
+- **Hardware Used**: ATmega328P microcontroller, LEDs, current-limiting resistors.
+- **Key Concepts**: I/O port manipulation, subroutine calls for delay implementation, register operations, and loop constructs.
 
 ### Project 2: [Project Name]
 - **Description**: Brief description of the project.
