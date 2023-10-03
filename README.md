@@ -13,11 +13,11 @@ This repository contains various projects and code snippets related to my Embedd
 - **Hardware Used**: ATmega328P microcontroller, LEDs, current-limiting resistors.
 - **Key Concepts**: I/O port manipulation, subroutine calls for delay implementation, register operations, and loop constructs.
 
-### Project 2: [Project Name]
-- **Description**: Brief description of the project.
-- **Languages Used**: C, Assembly
-- **Hardware Used**: Specify any microcontrollers, sensors, etc.
-- **Key Concepts**: Highlight any key concepts or techniques used (e.g., interrupts, low-power design, etc.)
+### Project 2: Countdown Timer (Embedded_Lab_2)
+- **Description**: The goal of this lab was to create a microcontroller-based countdown timer that is able to countdown between 1 and 25 seconds. The timer utilizes two cascading 8-bit shift registers, two seven-segment displays, and two pushbuttons. Operating the first pushbutton with a short press and release increments the displayed digit by one, and operating the same pushbutton with a long press and release resets the display to zero. Operating the second pushbutton will countdown from the number displayed at a rate of 1 digit per second.
+- **Languages Used**: Assembly
+- **Hardware Used**: ATmega328P microcontroller, 7-segment displays, shift registers, pushbuttons.
+- **Key Concepts**: I/O port manipulation, subroutine calls for delay implementation, register operations, loop constructs, user input handling, and display control.
 
 
 ## Technologies & Tools
