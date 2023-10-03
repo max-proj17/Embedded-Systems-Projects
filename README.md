@@ -19,6 +19,13 @@ This repository contains various projects and code snippets related to my Embedd
 - **Hardware Used**: ATmega328P microcontroller, 7-segment displays, shift registers, pushbuttons.
 - **Key Concepts**: I/O port manipulation, subroutine calls for delay implementation, register operations, loop constructs, user input handling, and display control.
 
+### Project 3: Seven-Segment Display Lock System (Embedded_Lab_3)
+- **Description**: The goal of this lab is to create a lock system with a seven-segment display, push-button switch, RPG (Rotary Encoder), shift register, and ATmega328P. The RPG allows a user to increment and decrement from 0-9 and A-F where 9 jumps to A when reached. When a user presses the button the current value represented by the seven-segment display is recorded. The system waits for 5 button presses to evaluate whether the 5 character code entered was correct. If it is correct, the decimal on the seven-segment display will turn on as well as an LED on the Arduino Board for 5 seconds. If the passcode is incorrect an underscore will appear on the seven-segment display for 9 seconds. After either a correct or incorrect passcode’s animation has finished the system can accept a 5 character code again starting at a dash. The correct code for this implementation is E859A.
+- **Languages Used**: Assembly
+- **Hardware Used**: ATmega328P microcontroller, 7-segment display, push-button switch, RPG (Rotary Encoder), shift register.
+- **Key Concepts**: I/O port manipulation, subroutine calls for delay implementation, register operations, loop constructs, user input handling, and display control.
+
+  
 
 ## Technologies & Tools
 - **Languages**: C, Assembly
