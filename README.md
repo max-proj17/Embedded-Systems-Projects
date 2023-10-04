@@ -4,6 +4,13 @@
 ## Overview
 This repository contains various projects and code snippets related to my Embedded Systems Projects! The projects encompass a range of applications and are developed using C, Assembly, and potentially other languages and tools related to embedded systems development.
 
+## Contact
+- [LinkedIn](https://www.linkedin.com/in/maxfinch2002)
+
+## Acknowledgements
+My lab partner Tiger Slowinski :)
+
+
 ![Project Image](/repo_images/medium-ATmega328P-TQFP-32.png)  
 
 ## General Technologies & Tools Used
@@ -58,10 +65,5 @@ The ultrasonic sensor measures the distance to the nearest object and converts t
 
 
 
-## Contact
-- [LinkedIn](https://www.linkedin.com/in/maxfinch2002)
-
-## Acknowledgements
-My lab partner Tiger Slowinski :)
 
 
