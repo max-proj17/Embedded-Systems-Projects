@@ -37,7 +37,24 @@ This repository contains various projects and code snippets related to my Embedd
 - **Hardware Used**: ATmega328P microcontroller, LCD display, RPG, PBS, Fan.
 - **Key Concepts**: I/O port manipulation, PWM (Pulse Width Modulation) for fan speed control, LCD interfacing, interrupt service routines, and user input handling through RPG and PBS.
 
-  
+### Project 5: Variable Analog Signal Measurement and Generation System (Embedded_Lab_5)
+- **Description**: The project aims to develop a system capable of measuring and generating analog signals, controllable remotely. Utilizing the ATmega328P controller's internal A/D converter and an external two-channel D/A converter (MAX518) with an I2C interface, the system is equipped with an RS232 interface (9600 8N1) for remote control via a laptop or computer. Users can initiate analog voltage measurements and set the output voltage sequence for both DAC channels by sending commands through the RS232 interface. The system employs ADC for analog-digital conversion, utilizing 10-bit resolution and VCC as the reference voltage. The DAC, MAX518, communicates with the microcontroller using the I2C protocol, converting 8-bit digital values into corresponding analog voltages. The software implementation involves I2C communication, USART for sending and receiving data via the RS232 interface, and standard C libraries for data type conversions.
+- **Languages Used**: C
+- **Hardware Used**: ATmega328P microcontroller, MAX518 D/A converter, RS232 interface.
+- **Key Concepts**: ADC (Analog Digital Conversion), DAC (Digital Analog Conversion), I2C communication protocol, USART (Universal Synchronous/Asynchronous Receiver Transmitter), RS232 interface communication, Data type conversions (atoi(), dtostrf()).
+
+
+### Project 6: Joystick Controlled Car with Ultrasonic Sensor Feedback (JoyStick_Controlled_Car_Final_Project)
+- **Description**: This project involves the development of a joystick-controlled car that utilizes ultrasonic sensor feedback to modulate an audio signal. The car's movement is controlled by two joysticks, each responsible for one of the motors. The ultrasonic sensor provides distance feedback, which is then converted into a voltage that modulates an audio signal, altering the pitch based on the proximity to an object. The closer the object, the higher the pitch produced by the audio signal. The project is implemented using two main components: the car controls and the ultrasonic sensor script (USSScript).
+- **Languages Used**: C
+- **Hardware Used**: ATmega328P microcontroller, brushed dc motors, joysticks, ultrasonic sensor, DAC (Digital to Analog Converter), L298N Motor Driver.
+- **Key Concepts**: PWM (Pulse Width Modulation) Smoothing for motor control, ADC (Analog to Digital Conversion) for reading joystick positions, I2C communication protocol for DAC control, interrupt service routines, and user input handling through joysticks.
+
+#### Car Controls
+The car is controlled using two joysticks, each joystick controlling one of the motors. The ADC (Analog to Digital Conversion) readings from the joysticks are converted to PWM (Pulse Width Modulation) signals to control the speed of the motors. The direction of the motors (forward or backward) is determined based on the ADC value. If the ADC value is in the middle, the motor stops; if it is less than the middle value, the motor moves forward, and if it is more, the motor moves backward. The code also includes USART (Universal Synchronous/Asynchronous Receiver Transmitter) functions for potential serial communication. The code for car controls can be found [here](https://github.com/max-proj17/Embedded-Systems-Projects/blob/main/Embedded_ARCHIVE/JoyStick_Controlled_Car_Final_Project/Car_Controls/GccApplication1/GccApplication1/main.c).
+
+#### Ultrasonic Sensor Script (USSScript)
+The ultrasonic sensor measures the distance to the nearest object and converts this distance to a voltage that modulates an audio signal. The closer the object, the higher the pitch produced by the audio signal. The ultrasonic sensor sends a trigger pulse and measures the echo pulse duration, which is converted to distance. The distance is then scaled and converted to a voltage that is sent to a DAC (Digital to Analog Converter) using the I2C communication protocol. The voltage is used to modulate an audio signal, altering its pitch based on the proximity to an object. The code for the ultrasonic sensor script can be found [here](https://github.com/max-proj17/Embedded-Systems-Projects/blob/main/Embedded_ARCHIVE/JoyStick_Controlled_Car_Final_Project/USSScript/USSScript/main.c).
 
 
 
