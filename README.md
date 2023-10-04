@@ -44,7 +44,7 @@ This repository contains various projects and code snippets related to my Embedd
 - **Key Concepts**: ADC (Analog Digital Conversion), DAC (Digital Analog Conversion), I2C communication protocol, USART (Universal Synchronous/Asynchronous Receiver Transmitter), RS232 interface communication, Data type conversions (atoi(), dtostrf()).
 
 
-### Project 6: Joystick Controlled Car with Ultrasonic Sensor Feedback (JoyStick_Controlled_Car_Final_Project)
+### Project 6: Joystick Controlled Car with Ultrasonic Sensor Feedback [JoyStick_Controlled_Car_Final_Project](https://github.com/max-proj17/Embedded-Systems-Projects/tree/main/Embedded_ARCHIVE/JoyStick_Controlled_Car_Final_Project)
 - **Description**: This project involves the development of a joystick-controlled car that utilizes ultrasonic sensor feedback to modulate an audio signal. The car's movement is controlled by two joysticks, each responsible for one of the motors. The ultrasonic sensor provides distance feedback, which is then converted into a voltage that modulates an audio signal, altering the pitch based on the proximity to an object. The closer the object, the higher the pitch produced by the audio signal. The project is implemented using two main components: the car controls and the ultrasonic sensor script (USSScript).
 - **Languages Used**: C
 - **Hardware Used**: ATmega328P microcontroller, brushed dc motors, joysticks, ultrasonic sensor, DAC (Digital to Analog Converter), L298N Motor Driver.
